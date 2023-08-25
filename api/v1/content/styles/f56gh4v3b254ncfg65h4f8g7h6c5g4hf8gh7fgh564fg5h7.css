@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../imgs/ghf41g5h43fg2hfg3h2f5h1fh235fg4h1111f11g111h11241f11g111h1511f141g11h12151f1g1117h1121f1511g11h41111f211vgh14fgh7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav a{
+    transition: 0.5s;
+    text-decoration: none;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.nav a:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.nav {
+    text-decoration: none;
+    width: 150px;
+    height: 100px;
+    background-color: transparent;
+}
+.nav li{
+    padding-top: 0.5cm;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+}
+
+
+.name{
+    align-items: center;
+    justify-content: center;
+}
+
+.picavatar img{
+    transition: 0.2s;
+}
+.picavatar img:hover{
+    transition: 0.2s;
+    transform: scale(160%);
+}
+
+.post1 p{
+    cursor: default;
+    font-size: 0.8cm;
+}
+
+.bsodpic img{
+    transition: 0.2s;
+    width: 60;
+    height: 40;
+}
+
+.bsodpic img:hover{
+    transition: 0.2s;
+    transform: scale(160%);
+}
