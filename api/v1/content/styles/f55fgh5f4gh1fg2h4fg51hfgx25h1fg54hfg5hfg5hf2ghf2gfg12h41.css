@@ -1,0 +1,28 @@
+.name{
+    align-items: center;
+    justify-content: center;
+}
+
+.picavatar img{
+    transition: 0.2s;
+}
+.picavatar img:hover{
+    transition: 0.2s;
+    transform: scale(160%);
+}
+
+.post1 p{
+    cursor: default;
+    font-size: 0.8cm;
+}
+
+.bsodpic img{
+    transition: 0.2s;
+    width: 60;
+    height: 40;
+}
+
+.bsodpic img:hover{
+    transition: 0.2s;
+    transform: scale(160%);
+}
