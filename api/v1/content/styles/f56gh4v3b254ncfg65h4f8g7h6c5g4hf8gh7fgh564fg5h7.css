@@ -38,3 +38,7 @@ body {
     height: 40px;
     background-color: transparent;
 }
+
+.alert-noscript{
+    background-color: darkred;
+}
