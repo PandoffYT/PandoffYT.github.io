@@ -1,0 +1,364 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2; 
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #444;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu
+{
+  position: absolute;
+  width: 200px;
+  height: 100vh;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  filter: opacity(70%);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/* Chat & Room */
+#chat {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#roomList {
+  flex-basis: 20%;
+}
+
+#roomList h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#roomList ul {
+  list-style: none;
+  padding: 0;
+}
+
+#roomList li {
+  margin-bottom: 5px;
+}
+
+#roomList a {
+  display: block;
+  padding: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#roomList a:hover {
+  background-color: #ddd;
+}
+
+#messageList {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#username,
+#message {
+  width: 70%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+#send {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#send:hover {
+  background-color: #45a049;
+}
+
+#messages div {
+  margin-bottom: 5px;
+  display: block;
+}
+
+#capsWarning {
+  visibility: hidden; 
+  min-width: 250px; 
+  margin-left: -125px; 
+  background-color: #444; 
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px; 
+  position: fixed; 
+  z-index: 1;
+  left: 50%;
+  bottom: 30px; 
+}
+
+#capsWarning.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.timestamp {
+  display: none;
+  font-size: 12px;
+  color: #888;
+}
+
+#messages div:hover .timestamp {
+  display: inline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Admin form */
+#admin {
+  margin-top: 20px;
+}
+
+#admin h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#adminForm input {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#adminRegister {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#adminRegister:hover {
+  background-color: #45a049;
+}
+
+/* Help Button */
+.help-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #888;
+  
+  max-width: 400px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Language Button */
+.language-button {
+  position: fixed;
+  top: 20px;
+  right: 60px;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333;
+}
+
+.language-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.language-button:focus {
+  outline: none;
+}
+
+/* Suggestion Button */
+#suggestionText {
+  resize: none;
+  height: 119px;
+  width: 390px;
+}
+
+.suggestion-button {
+  position: fixed;
+  top: 20px;
+  right: 220px;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #333;
+}
+
+.suggestion-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.suggestion-button:focus {
+  outline: none;
+}

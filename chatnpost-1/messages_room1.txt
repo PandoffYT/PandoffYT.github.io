@@ -1,0 +1,158 @@
+<strong><p style="color: red">Admin: Bienvnue sur ChatOnly</p></strong>
+<strong>Admin</strong>: WESH
+<strong>edsje</strong>: incroybale ChatOnly
+<strong>edsje</strong>: merci CREA75
+<strong>Uwu cat</strong>: Chalut
+<strong>Pas UwU Cat</strong>: CHIENLUT
+<strong>Snoroz</strong>: Hi guys!
+<strong>Snoroz</strong>: lmao
+<strong>MAJJOR</strong>: Hello
+<strong>a_python_dev</strong>: hi
+<strong>MAJJOR</strong>: It'S WORKS
+<strong><p style="color: red">Admin: THANKS GUYS</p></strong>
+<strong>Snoroz</strong>: 🔥
+<strong><p style="color: red">Admin: I 'am the admin</p></strong>
+<strong><p style="color: red">Admin: ANd i can delet message</p></strong>
+<strong>a_python_dev</strong>: lol your name says it
+<strong>a_python_dev</strong>: wow you can replace them too ?
+<strong>Snoroz</strong>: Wow is that a hacker lol
+<strong>a_python_dev</strong>: yeah
+<strong>CREA75</strong>: so cool
+<strong>Snoroz</strong>: Bon normalement il y a des français ici nan ?
+<strong>a_python_dev</strong>: can i suggest something ?
+<strong>Snoroz</strong>: Yes!
+<strong>a_python_dev</strong>: the messages should be sent when you hit enter
+<strong>Snoroz</strong>: .
+<strong>a_python_dev</strong>: and the chat should scroll down automatically when a ned message arrive
+<strong>Snoroz</strong>: yeah i think so too
+<strong>a_python_dev</strong>: but it's already super great right now !
+<strong>a_python_dev</strong>: lol too much multiplayer stuff today
+<strong>Snoroz</strong>: It's fun! great job
+<strong>MAJJOR</strong>: Ok guys i go to modfiy this
+<strong>a_python_dev</strong>: nice tell us when it's done i'd love to try it
+<strong>MAJJOR</strong>: OK :)
+<strong>a_python_dev</strong>: so, the automatic scroll...
+<strong>a_python_dev</strong>: really nice !!
+<strong>CREA75</strong>: thanks
+<strong>Snoroz</strong>: .
+<strong>Snoroz</strong>: .
+<strong>MAJJOR</strong>: ?
+<strong>Snoroz</strong>: oh yeah it works
+<strong>MAJJOR</strong>: .
+<strong>MAJJOR</strong>: YES
+<strong>a_python_dev</strong>: there is a tiny time before it scrolls but it works !
+<strong>Snoroz</strong>: Oh, when you go to the top to read old messages, it automatically takes you back to the bottom.
+<strong>MAJJOR</strong>: test
+<strong>MAJJOR</strong>: test
+<strong>Snoroz</strong>: first bug found
+<strong>MAJJOR</strong>: it's works, the scoll instentaly
+<strong>Snoroz</strong>: just scroll up and u will see
+<strong>MAJJOR</strong>: attends la normalement
+<strong>a_python_dev</strong>: is it instent now ?
+<strong>Snoroz</strong>: even if no one sends a message, it brings us back down.
+<strong>a_python_dev</strong>: oooh yeah that's much faster now, great !!
+<strong>a_python_dev</strong>: it's not bringing me to the last messages anymore
+<strong><p style="color: red">Admin: THE ROOM ARE COMING!!!</p></strong>
+<strong>a_python_dev</strong>: someone in room 1 ?
+<strong>a_python_dev</strong>: someone in room 1 ?
+<strong><p style="color: red">Admin: The rooms have a small problems, i think it's coming about 14:30 AM</p></strong>
+<strong>a_python_dev</strong>: ok
+<strong><p style="color: red">Admin: Finaly the rooms come earlier</p></strong>
+<strong>Lo</strong>: Hello
+<strong>MAJJOR</strong>: The room are here
+<strong>Tony2409</strong>: Meh
+<strong>MAJJOR</strong>: wesh  cv
+<strong>edsje</strong>: trop bien
+<strong>hello123</strong>: hello
+<strong>hello123</strong>: cv
+<strong>a</strong>: a<span class="timestamp">July 4, 2023, 5:26 pm</span>
+<strong>Magneto_Craft</strong>: test<span class="timestamp">July 4, 2023, 7:04 pm</span>
+<strong>MAJJOR</strong>: cv<span class="timestamp">July 4, 2023, 7:04 pm</span>
+<strong>Magneto_Craft</strong>: waw, ça marche !<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>Magneto_Craft</strong>: oui<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>MAJJOR</strong>: Bah oui mdr, j'aurais pas dit sa si sa marchais pas XD<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>Magneto_Craft</strong>: prk on peut pas remonter le chat ?<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>MAJJOR</strong>: N'existe pas a le partager a t potes<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>MAJJOR</strong>: J'y travail<span class="timestamp">July 4, 2023, 7:05 pm</span>
+<strong>Magneto_Craft</strong>: ok<span class="timestamp">July 4, 2023, 7:06 pm</span>
+<strong>MAJJOR</strong>: Car l'autoscroll empeche de remonter<span class="timestamp">July 4, 2023, 7:06 pm</span>
+<strong>agug</strong>: xss moment<span class="timestamp">July 4, 2023, 7:06 pm</span>
+<strong>MAJJOR</strong>: tu as mis tu HTML<span class="timestamp">July 4, 2023, 7:06 pm</span>
+<strong>MAJJOR</strong>: LET'S GO<span class="timestamp">July 4, 2023, 7:07 pm</span>
+<strong>Magneto_Craft</strong>: faudrait activer l'autoscroll seulement quand la personne est tout en bas du scrollview<span class="timestamp">July 4, 2023, 7:07 pm</span>
+<strong>MAJJOR</strong>: tu as un exemple ?<span class="timestamp">July 4, 2023, 7:07 pm</span>
+<strong>Magneto_Craft</strong>: non<span class="timestamp">July 4, 2023, 7:07 pm</span>
+<strong>MAJJOR</strong>: sur 10 tu met combien a mon site<span class="timestamp">July 4, 2023, 7:08 pm</span>
+<strong>Magneto_Craft</strong>: 7 parce qu'il est bien foutu en dehors du fait qu'on ne puisse pas remonter la scrollview<span class="timestamp">July 4, 2023, 7:09 pm</span>
+<strong>Magneto_Craft</strong>: jqfdkjgkjg test toto<span class="timestamp">July 4, 2023, 7:09 pm</span>
+<strong>Magneto_Craft</strong>: test toto test toto test toto test toto test toto<span class="timestamp">July 4, 2023, 7:10 pm</span>
+<strong>Magneto_Craft</strong>: t<span class="timestamp">July 4, 2023, 7:10 pm</span>
+<strong>Magneto_Craft</strong>: par contre, la selection des messages ne marche pas très bien<span class="timestamp">July 4, 2023, 7:10 pm</span>
+<strong>CREA75</strong>: H<span class="timestamp">July 4, 2023, 7:10 pm</span>
+<strong>CREA75</strong>: C BON<span class="timestamp">July 4, 2023, 7:11 pm</span>
+<strong>CREA75</strong>: plus de xss<span class="timestamp">July 4, 2023, 7:11 pm</span>
+<strong>Magneto_Craft</strong>: https://youtu.be/NN9Jj9bqBMs<span class="timestamp">July 4, 2023, 7:13 pm</span>
+<strong>CREA75</strong>: les pubs sont pas interdit<span class="timestamp">July 4, 2023, 7:13 pm</span>
+<strong>CREA75</strong>: mais peux t'etre un jour<span class="timestamp">July 4, 2023, 7:13 pm</span>
+<strong>agug</strong>: peut pas copier car update toute les sec<span class="timestamp">July 4, 2023, 7:13 pm</span>
+<strong>CREA75</strong>: a oe<span class="timestamp">July 4, 2023, 7:13 pm</span>
+<strong>MAJJOR</strong>: tu fais quoi?<span class="timestamp">July 4, 2023, 7:16 pm</span>
+<strong>Yukulel</strong>: To mec<span class="timestamp">July 4, 2023, 9:29 pm</span>
+<strong>Yukulel</strong>: Yo*<span class="timestamp">July 4, 2023, 9:29 pm</span>
+<strong>Cacahuètes lunatique</strong>: Hi<span class="timestamp">July 28, 2023, 5:08 pm</span>
+<strong>Garel (Jean pierre)</strong>: Heu .... tu es moche arrête <span class="timestamp">July 28, 2023, 5:11 pm</span>
+<strong>CREA75</strong>: Pas de ça ici merci ;)<span class="timestamp">July 28, 2023, 5:12 pm</span>
+<strong>CREA75</strong>: mais tkt<span class="timestamp">July 28, 2023, 5:12 pm</span>
+<strong>Mathinfernal</strong>: slt ! :)<span class="timestamp">July 28, 2023, 5:12 pm</span>
+<strong>Mathinfernal</strong>: Si je peux donner un conseil tu devrais mettre "French room" en français et "Spannish room" en éspagnol mdr<span class="timestamp">July 28, 2023, 5:13 pm</span>
+<strong>Mathinfernal</strong>: sinon franchement sympa<span class="timestamp">July 28, 2023, 5:14 pm</span>
+<strong>CREA75</strong>: c'est fait<span class="timestamp">July 28, 2023, 5:19 pm</span>
+<strong>Yukulel</strong>: Btw, faudrait ptet créer un syteme de login pour les utilisateurs lamda non?<span class="timestamp">July 28, 2023, 5:28 pm</span>
+<strong>Garel</strong>: Oui<span class="timestamp">July 28, 2023, 5:28 pm</span>
+<strong>Yukulel</strong>: et faire en sorte que appuyé sur entré envois le message<span class="timestamp">July 28, 2023, 5:28 pm</span>
+<strong>Garel</strong>: Ouiuii<span class="timestamp">July 28, 2023, 5:29 pm</span>
+<strong>Garel</strong>: Faire un système de suggestion aussi 😅<span class="timestamp">July 28, 2023, 5:29 pm</span>
+<strong>CREA75</strong>: test notif<span class="timestamp">July 28, 2023, 5:34 pm</span>
+<strong>hello</strong>: fsd<span class="timestamp">July 28, 2023, 5:54 pm</span>
+<strong>Hey</strong>: Garel<span class="timestamp">July 28, 2023, 6:11 pm</span>
+<strong>hello</strong>: hello<span class="timestamp">July 28, 2023, 6:29 pm</span>
+<strong>MAJJOR</strong>: stylé<span class="timestamp">July 28, 2023, 7:31 pm</span>
+<strong>MAJJOR</strong>: c'est bon<span class="timestamp">July 28, 2023, 7:53 pm</span>
+<strong>MAJJOR</strong>: t'es là ?<span class="timestamp">July 28, 2023, 7:54 pm</span>
+<strong>CREA75</strong>: oe<span class="timestamp">July 28, 2023, 7:55 pm</span>
+<strong>MAJJOR</strong>: c'est grave stylé<span class="timestamp">July 28, 2023, 7:56 pm</span>
+<strong>CREA75</strong>: merci ;)<span class="timestamp">July 28, 2023, 7:57 pm</span>
+<strong>MAJJOR</strong>: pk full oshi no ko sur le post ?<span class="timestamp">July 28, 2023, 7:57 pm</span>
+<strong>CREA75</strong>: c'est les derniere photo que j'ai sur mon PC<span class="timestamp">July 28, 2023, 7:58 pm</span>
+<strong>MAJJOR</strong>: aaaaaaaaaah<span class="timestamp">July 28, 2023, 7:58 pm</span>
+<strong>CREA75</strong>: et toi<span class="timestamp">July 28, 2023, 8:00 pm</span>
+<strong>MAJJOR</strong>: t'as fais ça en HTML ?<span class="timestamp">July 28, 2023, 8:00 pm</span>
+<strong>MAJJOR</strong>: tu veux que je mette la dernière photo que j'ai sur mon ordi ?<span class="timestamp">July 28, 2023, 8:00 pm</span>
+<strong>CREA75</strong>: Oe, c'est en HTMl, CSS, JS et PHP<span class="timestamp">July 28, 2023, 8:01 pm</span>
+<strong>CREA75</strong>: et oui <span class="timestamp">July 28, 2023, 8:02 pm</span>
+<strong>MAJJOR</strong>: att y a des dossiers<span class="timestamp">July 28, 2023, 8:02 pm</span>
+<strong>CREA75</strong>: parfait<span class="timestamp">July 28, 2023, 8:03 pm</span>
+<strong>MAJJOR</strong>: le bait<span class="timestamp">July 28, 2023, 8:04 pm</span>
+<strong>MAJJOR</strong>: j'ai joué ton jeu et j'ai mis une photo d'oshi no ko<span class="timestamp">July 28, 2023, 8:05 pm</span>
+<strong>MAJJOR</strong>: j'ai joué ton jeu et j'ai mis une photo d'oshi no ko<span class="timestamp">July 28, 2023, 8:05 pm</span>
+<strong>MAJJOR</strong>: ça a envoyé 2 fois le message<span class="timestamp">July 28, 2023, 8:05 pm</span>
+<strong>CREA75</strong>: Bizarre<span class="timestamp">July 28, 2023, 8:06 pm</span>
+<strong>MAJJOR</strong>: tkt<span class="timestamp">July 28, 2023, 8:07 pm</span>
+<strong>CREA75</strong>: oe oe<span class="timestamp">July 28, 2023, 8:08 pm</span>
+<strong>MAJJOR</strong>: tu peux supprimer les photos ?<span class="timestamp">July 28, 2023, 8:09 pm</span>
+<strong>CREA75</strong>: non<span class="timestamp">July 28, 2023, 8:09 pm</span>
+<strong>CREA75</strong>: mais moi admin oui<span class="timestamp">July 28, 2023, 8:09 pm</span>
+<strong>CREA75</strong>: oe<span class="timestamp">July 28, 2023, 8:14 pm</span>
+<strong>Batpolygon</strong>: Stylé 🦇<span class="timestamp">July 29, 2023, 5:53 am</span>
+<strong>CREA75</strong>: Mercii ;)<span class="timestamp">July 29, 2023, 9:25 am</span>
+<img src="images/avatar/avatar3.png" alt="Avatar" class="avatar"><strong>CREA75</strong>: salut<span class="timestamp">July 29, 2023, 11:11 am</span>
+<img src="images/avatar/avatar5.png" alt="Avatar" class="avatar"><strong>KIKI_ou</strong>: Bonjour<span class="timestamp">July 29, 2023, 1:25 pm</span>
+<img src="images/avatar/avatar2.png" alt="Avatar" class="avatar"><strong>KIKI_ou</strong>: c'est très stylé<span class="timestamp">July 29, 2023, 1:25 pm</span>
+<img src="images/avatar/avatar5.png" alt="Avatar" class="avatar"><strong>CREA75</strong>: Merci KIKI_ou<span class="timestamp">July 29, 2023, 1:52 pm</span>
+<img src="images/avatar/avatar4.png" alt="Avatar" class="avatar"><strong>Aeshki</strong>: Intéressant<span class="timestamp">July 29, 2023, 7:46 pm</span>
+<img src="images/avatar/avatar5.png" alt="Avatar" class="avatar"><strong>Aeshki</strong>: hmm<span class="timestamp">July 29, 2023, 7:46 pm</span>
+<img src="images/avatar/avatar1.png" alt="Avatar" class="avatar"><strong>CREA75</strong>: Je suis d'accord<span class="timestamp">July 29, 2023, 8:49 pm</span>
+<img src="images/avatar/avatar4.png" alt="Avatar" class="avatar"><strong>Clément</strong>: Salut c'est trop cool faudrait avoir ça sur HISHLIBIDISH<span class="timestamp">August 8, 2023, 7:38 pm</span>
+<img src="images/avatar/avatar5.png" alt="Avatar" class="avatar"><strong>CREA75</strong>: OE<span class="timestamp">August 8, 2023, 7:41 pm</span>
+<img src="images/avatar/avatar2.png" alt="Avatar" class="avatar"><strong>HELLO</strong>: gfd<span class="timestamp">August 16, 2023, 7:38 pm</span>
+<img src="images/avatar/avatar2.png" alt="Avatar" class="avatar"><strong>HELLO</strong>: à)<span class="timestamp">August 16, 2023, 7:39 pm</span>
