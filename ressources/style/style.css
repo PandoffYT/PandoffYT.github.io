@@ -44,6 +44,7 @@ body {
 }
 
 #alert{
+    position: fixed;
     background-color: #ff0000; 
     height: 8vh;
     width: 100%;
