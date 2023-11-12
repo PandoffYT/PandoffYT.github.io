@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P2C49DBT');</script>
-    <!-- End Google Tag Manager -->
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing purposes only !!</title>
+    <title>Notification Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
 </head>
 <body>
+    <h1>Notification Example</h1>
+    
+    <button onclick="showNotification()">Show Notification</button>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2C49DBT"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+    <script>
+        function showNotification() {
+            // Check if the browser supports notifications
+            if ('Notification' in window) {
+                Notification.requestPermission().then(function(permission) {
+                    if (permission === 'granted') {
+                        // Create a notification
+                        var notification = new Notification('Hello, World!', {
+                            icon: '../ressources/img/avatar.jpg',
+                            image: '../ressources/img/background.jpg', // Set the path to your banner image
+                            body: 'This is the notification body.', // Set the path to your notification icon
+                        });
 
-    <embed src="./ressources/out.swf">
+                        // Optional: Handle click event on the notification
+                        notification.onclick = function() {
+                            alert('Notification clicked!');
+                        };
+                    }
+                });
+            } else {
+                alert('Notifications not supported in this browser.');
+            }
+        }
+    </script>
 </body>
 </html>
