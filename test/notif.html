@@ -25,7 +25,9 @@
                     if (permission === 'granted') {
                         // Create a notification
                         var notification = new Notification('Hello, World!', {
-                            icon: '../ressources/img/avatar.jpg', // Set the path to your notification icon
+                            icon: '../ressources/img/avatar.jpg',
+                            image: '../ressources/img/background.jpg', // Set the path to your banner image
+                            body: 'This is the notification body.', // Set the path to your notification icon
                         });
 
                         // Optional: Handle click event on the notification
