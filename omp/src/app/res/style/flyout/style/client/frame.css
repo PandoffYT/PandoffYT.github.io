@@ -1,0 +1,9 @@
+#player{
+    color: black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    width: 100%;
+}

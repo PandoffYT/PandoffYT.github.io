@@ -1,0 +1,29 @@
+#banner-noscript{
+    background-color: rgb(255, 0, 0);
+}
+
+#media-btn {
+    transition: 500ms;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #2497f3 ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#media-btn:hover {
+    transition: 500ms;
+    font-family: Arial, Helvetica, sans-serif ;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #055597 ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
