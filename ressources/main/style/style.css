@@ -4,7 +4,7 @@ body {
     background-image: url('../img/aura/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'OCR A Std, monospace';
 }
 
 .nav a{
