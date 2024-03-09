@@ -1,0 +1,72 @@
+html{
+   cursor: url(./cursors/cur-pointer.png), pointer; 
+}
+
+body{
+    background-color: #282b30;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+
+ul{
+    transition: 0.4s;
+    text-decoration: underline;
+    float: right;
+    margin-left: 1%;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+ul:hover{
+    cursor: url(./cursors/cur-link.png), pointer; 
+    transition: 0.4s;
+    transform: scale(110%);
+    text-decoration: underline;
+    float: right;
+    margin-left: 1%;
+    margin-top: 4%;
+    margin-right: 3%;
+}
+
+#ul-link{
+    transition: 0.2s;
+    color: white;
+    text-decoration: underline;
+}
+
+#ul-link:hover{
+    transition: 0.2s;
+    color: lightgrey;
+}
+
+#Category1-drawing{
+    transition: 0.4s;
+    float: left;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 25%;
+    width: 120;
+    height: 120;
+}
+
+#Category1-drawing:hover{ 
+    transform: scale(150%);
+    transition: 0.4s;
+    float: left;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 40%;
+    width: 120;
+    height: 120;
+}
+
+#Category1-title{
+    cursor: url(./cursors/hack.png), pointer; 
+    float: left;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+

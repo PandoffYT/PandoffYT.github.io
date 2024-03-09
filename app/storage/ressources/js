@@ -1,0 +1,5 @@
+function easteregg() {
+
+    window.location.href = './app/storage/ressources/todolist';
+
+}

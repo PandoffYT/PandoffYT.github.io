@@ -1,0 +1,23 @@
+<div class="Category2-div" id="Category2-div-id">
+
+        <h1 id="Category2-title">● Points of interest</h1>
+        <li id="Category2-content">Technology</li>
+        <li id="Category2-content-child">Drawing</li>
+
+
+</div>
+
+#Category2-title{
+    float: center;
+    margin-top: 18%;
+}
+
+#Category2-content{
+    float: center;
+    margin-top: 20%;
+}
+
+#Category2-content-child{
+    float: center;
+    margin-top: 0%;
+}

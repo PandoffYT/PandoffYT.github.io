@@ -1,0 +1,78 @@
+.pup{
+    transition: 0.5s;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999; 
+}
+  
+.pup-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #282b30;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.close{
+    transition: 1s;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    height: 6%;
+    width: 6%;
+    cursor: url(./cursors/cur-link.png), pointer;    
+    color: rgb(255, 255, 255);
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+.close:hover{
+    transition: 1s;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    height: 6%;
+    width: 6%;
+    cursor: url(./cursors/cur-link.png), pointer;    
+    color: rgb(255, 0, 0);
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
+
+#pup-text{
+    color: white;
+    cursor: url(./cursors/cur-link.png), pointer; 
+}
+
+#yt-iframe{
+    cursor: url(./cursors/cur-link.png), pointer; 
+}
+  
+.pup-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #282b30;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+
+#hacked-lime{
+    color:#32CD32;
+}
