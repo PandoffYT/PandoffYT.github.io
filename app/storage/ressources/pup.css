@@ -21,7 +21,7 @@
 }
   
 .close{
-    transition: 1s;
+    transition: 0.2s;
     position: absolute;
     top: 1px;
     right: 2px;
@@ -37,7 +37,7 @@
 }
 
 .close:hover{
-    transition: 1s;
+    transition: 0.5s;
     position: absolute;
     top: 1px;
     right: 2px;
@@ -51,7 +51,6 @@
     margin-right: 3%;
     margin-top: 3%;
 }
-
 
 #pup-text{
     color: white;

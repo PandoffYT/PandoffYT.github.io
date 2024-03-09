@@ -20,7 +20,7 @@ ul{
 ul:hover{
     cursor: url(./cursors/cur-link.png), pointer; 
     transition: 0.4s;
-    transform: scale(110%);
+    transform: scale(115%);
     text-decoration: underline;
     float: right;
     margin-left: 1%;
