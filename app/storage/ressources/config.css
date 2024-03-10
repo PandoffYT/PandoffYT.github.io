@@ -20,7 +20,7 @@ ul{
 ul:hover{
     cursor: url(./cursors/cur-link.png), pointer; 
     transition: 0.4s;
-    transform: scale(115%);
+    transform: scale(105%);
     text-decoration: underline;
     float: right;
     margin-left: 1%;
@@ -40,7 +40,7 @@ ul:hover{
 }
 
 #Category1-drawing{
-    transition: 0.4s;
+    transition: 0.2s;
     float: left;
     margin-top: 2%;
     margin-right: 2%;
@@ -51,8 +51,8 @@ ul:hover{
 }
 
 #Category1-drawing:hover{ 
-    transform: scale(150%);
-    transition: 0.4s;
+    transform: scale(120%);
+    transition: 0.2s;
     float: left;
     margin-top: 2%;
     margin-right: 2%;

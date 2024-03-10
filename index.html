@@ -7,13 +7,25 @@
     <link rel="stylesheet" href="./app/storage/ressources/pup.css">
     <link rel="icon" href="./app/storage/ressources/icon">
     <script src="./app/storage/ressources/js"></script>
+    <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
+            alert('Right click isnt allowed !')
+        });
+    });
+});
+</script>
     <title>théo</title>
 </head>
 <body>
     
     <div class="Category1-div" id="Category1-div-id">
 
-            <img src="./app/storage/ressources/art" id="Category1-drawing" draggable="false" width="120" height="120">
+            <img src="./app/storage/ressources/pfp" id="Category1-drawing" draggable="false" width="120" height="120">
 
             <h1 id="Category1-title" onclick="document.getElementById('puptodo').style.display = 'block';">théo</h1>
     </div>
