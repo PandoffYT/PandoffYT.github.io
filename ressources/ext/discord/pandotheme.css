@@ -65,19 +65,21 @@
 	--icon-spin-transition: 1.5s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
-	--roundness-xl: 20px; /* roundness of big panel outer corners */
-	--roundness-l: 16px; /* popout panels */
+	--roundness-xl: 12px; /* roundness of big panel outer corners */
+	--roundness-l: 14px; /* popout panels */
 	--roundness-m: 14px; /* smaller panels, images, embeds */
 	--roundness-s: 10px; /* members, settings inputs */
-	--roundness-xs: 8px; /* channels, buttons */
-	--roundness-xxs: 8px; /* searchbar, small elements */
+	--roundness-xs: 5px; /* channels, buttons */
+	--roundness-xxs: 10px; /* searchbar, small elements */
 
 	/* direct messages pando icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--pando-icon: block; /* pando icon */
 	--pando-icon-url: url('https://pandoffyt.github.io/ressources/ext/discord/icon.svg'); /* custom icon url */
-	--pando-icon-size: auto;
+	/* --pando-icon-size: 100px; */
+   	--pando-icon-repeat: no-repeat;
+    	--pando-icon-size: 100%;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
