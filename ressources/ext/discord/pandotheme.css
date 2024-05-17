@@ -61,7 +61,7 @@
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
 	--list-item-transition: 0.5s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 1s ease; /* unread bar moving into view transition */
-	--pando-spin-transition: 1s ease; /* moon icon spin */
+	--pando-spin-transition: 1s ease; /* pando icon spin */
 	--icon-spin-transition: 1.5s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */

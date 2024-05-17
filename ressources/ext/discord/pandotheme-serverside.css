@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+/**
+ * @name pando theme
+ * @description a personalized theme
+ * @author pando
+ * @version 1.0
+ * @invite XAPeNyu3r9
+ * @website https://pandoffyt.github.io
+ * @source localhost
+ * @authorId empty
+ * @authorLink https://pandoffyt.github.io
+*/
+
+/* make sure to have dark theme on discord, or it might not work ! */
+
+@import url('https://pandoffyt.github.io/ressources/ext/discord/pandotheme-serverside.css');
+
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
@@ -46,25 +62,27 @@
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
-	--list-item-transition: 1s ease; /* channels/members/settings hover transition */
+	--list-item-transition: 0.5s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 1s ease; /* unread bar moving into view transition */
 	--pando-spin-transition: 1s ease; /* pando icon spin */
 	--icon-spin-transition: 1.5s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
-	--roundness-xl: 22px; /* roundness of big panel outer corners */
-	--roundness-l: 20px; /* popout panels */
-	--roundness-m: 16px; /* smaller panels, images, embeds */
-	--roundness-s: 12px; /* members, settings inputs */
-	--roundness-xs: 10px; /* channels, buttons */
-	--roundness-xxs: 8px; /* searchbar, small elements */
+	--roundness-xl: 12px; /* roundness of big panel outer corners */
+	--roundness-l: 14px; /* popout panels */
+	--roundness-m: 14px; /* smaller panels, images, embeds */
+	--roundness-s: 10px; /* members, settings inputs */
+	--roundness-xs: 5px; /* channels, buttons */
+	--roundness-xxs: 10px; /* searchbar, small elements */
 
 	/* direct messages pando icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--pando-icon: block; /* pando icon */
-	--pando-icon-url: url('https://files.catbox.moe/bwiabu.svg'); /* custom icon url */
-	--pando-icon-size: auto;
+	--pando-icon-url: url('https://pandoffyt.github.io/ressources/ext/discord/icon.svg'); /* custom icon url */
+	/* --pando-icon-size: 100px; */
+   	--pando-icon-repeat: no-repeat;
+    	--pando-icon-size: 100%;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
@@ -72,6 +90,7 @@
 	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
 	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
 }
+
 
 
 /* change fonts (edit the variables above, not this part) */
