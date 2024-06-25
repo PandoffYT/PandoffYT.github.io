@@ -3,3 +3,13 @@ function easteregg() {
     window.location.href = './app/storage/ressources/todolist';
 
 }
+
+
+jQuery(document).ready(function(){
+  jQuery(function() {
+        jQuery(this).bind("contextmenu", function(event) {
+            event.preventDefault();
+            alert('Right click isnt allowed !')
+        });
+    });
+});

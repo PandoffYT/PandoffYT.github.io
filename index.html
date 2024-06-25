@@ -7,18 +7,8 @@
     <link rel="stylesheet" href="./app/storage/ressources/pup.css">
     <link rel="icon" href="./app/storage/ressources/icon">
     <script src="./app/storage/ressources/js"></script>
-    <script 
-src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-jQuery(document).ready(function(){
-  jQuery(function() {
-        jQuery(this).bind("contextmenu", function(event) {
-            event.preventDefault();
-            alert('Right click isnt allowed !')
-        });
-    });
-});
-</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <title>théo</title>
 </head>
 <body>
@@ -33,7 +23,7 @@ jQuery(document).ready(function(){
 <nav>
     <a id="ul-link" href="/projects/" draggable="false"><ul>projects</ul></a>
     <a id="ul-link" href="https://discord.gg/CR5HAk34tg" draggable="false" target="_self"><ul>discord</ul></a>
-    <a id="ul-link" onclick="document.getElementById('pup').style.display = 'block';" draggable="false"><ul>youtube</ul></a>
+    <a id="ul-link" href="https://youtube.com/@thetheochannel_" target="_blank" draggable="false"><ul>youtube</ul></a>
 </nav>
 
 <div id="puptodo" class="pup">
@@ -47,7 +37,14 @@ jQuery(document).ready(function(){
 </div>
 </div>
 
+<div id="projects-popup" class="pup">
+    <div class="pup-content">
+        <iframe src="./projects/" height="300" width="500" draggable="false">
+    </div>
+</div>
 
+<!-- deprecated -->
+<!--
 <div id="pup" class="pup">
         <div class="pup-content">
         <span class="close" onclick="document.getElementById('pup').style.display = 'none';"><h3>&times;</h3></span>
@@ -55,7 +52,8 @@ jQuery(document).ready(function(){
                 <h2 id="pup-text">due to youtube limitations, i cant use an iframe (html snippet to show a website in a frame) to display my channel, please click "visit the channel" for my channel</h2>
         <br><a id="pup-text" href="https://youtube.com/@thetheochannel_" draggable="false" target="_self"><h2>visit the channel</h2></a>
     </div>
-</div>
+</div> 
+-->
 
 </body>
 </html>
