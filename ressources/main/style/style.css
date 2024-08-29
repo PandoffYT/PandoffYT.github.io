@@ -50,3 +50,22 @@ body {
     display: flex;
     padding: 20 20px;
 }
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #content {
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    #content {
+    }
+}
