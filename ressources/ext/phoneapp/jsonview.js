@@ -4,9 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             const dataDisplay = document.getElementById("dataDisplay");
 
-            // Create HTML elements to display the JSON data
-            const versionElement = document.createElement("h2");
-            versionElement.textContent = data.version;
+            const versionElement = document.createElement("h3");
+            versionElement.textContent ="version " + data.version;
             dataDisplay.appendChild(versionElement);
         })
         .catch(error => console.error("Error fetching JSON data:", error));
