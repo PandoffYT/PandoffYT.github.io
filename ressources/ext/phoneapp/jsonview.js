@@ -17,11 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching JSON:', error));
 
-        if (!data.colors || !Array.isArray(data.colors)) {
-            console.error('The colors property is missing or not an array.');
-            return;
-        }
-        
     selectElement.addEventListener('change', function() {
         downloadbtn.innerHTML = '';
 
