@@ -8,14 +8,17 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const versions = data.version;
 
-            versions.forEach(() => {
-                const option = document.createElement('option');
-                option.value = versions.link; // Use the image URL as the value
-                option.textContent = versions.version;
-                selectElement.appendChild(option);
-            });
+            if (Array.isArray(versions)) {
+                versions.forEach(version => {
+                    const option = document.createElement('option');
+                    option.value = version.link; // Corrected to use version.link
+                    option.textContent = version.version; // Corrected to use version.version
+                    selectElement.appendChild(option);
+                });
+            } else {
+                console.error('The "version" property is not an array or is missing.');
+            }
         })
-        .catch(error => console.error('Error fetching JSON:', error));
 
     selectElement.addEventListener('change', function() {
         downloadbtn.innerHTML = '';
