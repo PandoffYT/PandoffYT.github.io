@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const versions = data.version;
 
-            versions.forEach(version => {
+            versions.forEach(() => {
                 const option = document.createElement('option');
                 option.value = versions.link; // Use the image URL as the value
                 option.textContent = versions.version;
