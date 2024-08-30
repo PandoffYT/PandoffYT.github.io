@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const dataDisplay = document.getElementById("dataDisplay");
 
             const versionElement = document.createElement("h3");
-            versionElement.textContent ="version " + data.version;
+            versionElement.textContent ="version: " + data.version;
             dataDisplay.appendChild(versionElement);
         })
         .catch(error => console.error("Error fetching JSON data:", error));
