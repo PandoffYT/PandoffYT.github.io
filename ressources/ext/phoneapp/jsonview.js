@@ -6,13 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            const ver = data.version;
+            const versions = data.version;
 
-            ata = JSON.parse(ver);
-            ver.forEach(version => {
+            versions.forEach(version => {
                 const option = document.createElement('option');
-                option.value = ver.link; // Use the image URL as the value
-                option.textContent = ver.version + ver.vername;
+                option.value = versions.link; // Use the image URL as the value
+                option.textContent = versions.version;
                 selectElement.appendChild(option);
             });
         })
