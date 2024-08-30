@@ -1,6 +1,7 @@
 {
     "ver": 
     [
+        {"version": "example", "link": "https://pandoffyt.github.io/ressources/ext/phoneapp/index.html"}
         {"version": "1.2", "link": "https://pandoffyt.github.io/ressources/ext/phoneapp/apks/1.2.apk"}
     ]
 }
