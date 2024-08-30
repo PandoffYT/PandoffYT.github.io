@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const jsonFilePath = 'verhistory.json';
     const selectElement = document.getElementById('verSelect');
     const downloadbtn = document.getElementById('downloadbtn');
-
+    
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
             const ver = data.version;
 
-
+            ata = JSON.parse(ver);
             ver.forEach(version => {
                 const option = document.createElement('option');
                 option.value = ver.link; // Use the image URL as the value
