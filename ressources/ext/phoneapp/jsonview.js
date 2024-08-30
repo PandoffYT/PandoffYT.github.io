@@ -1,16 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    fetch('version.json')
-        .then(response => response.json())
-        .then(data => {
-            const dataDisplay = document.getElementById("dataDisplay");
-
-            const versionElement = document.createElement("h3");
-            versionElement.textContent ="Latest release version " + data.version;
-            dataDisplay.appendChild(versionElement);
-        })
-        .catch(error => console.error("Error fetching JSON data:", error));
-});
-
 document.addEventListener('DOMContentLoaded', function() {
     const jsonFilePath = 'verhistory.json';
     const selectElement = document.getElementById('verSelect');
@@ -19,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch(jsonFilePath)
         .then(response => response.json())
         .then(data => {
-            const ver = data.ver;
+            const ver = data.version;
 
 
-            ver.forEach(ver => {
+            ver.forEach(version => {
                 const option = document.createElement('option');
                 option.value = ver.link; // Use the image URL as the value
                 option.textContent = ver.version + ver.vername;
