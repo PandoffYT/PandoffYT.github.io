@@ -1,1 +1,8 @@
-{"version": 1.2, "buildnumber": 25, "vername": "Salmon", "author": "Pando", "project": "Pando's Web Browser"}
+{
+    "version": 1.2,
+    "buildnumber": 25,
+    "vername": "Salmon",
+    "author": "Pando",
+    "project": "Pando's Web Browser",
+    "projectphase": "Beta"
+}
