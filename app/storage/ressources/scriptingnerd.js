@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const titles = [
         "théo",
         "mobile view is broken",
+        "also why is it loading forever",
         "title (no inspiration)",
         "uhhh enjoy ig",
         "hawk 2ah",
