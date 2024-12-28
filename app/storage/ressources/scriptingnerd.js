@@ -3,6 +3,8 @@ function easteregg() {
     window.location.href = './app/storage/ressources/todolist';
 }
 
+
+document.addEventListener('DOMContentLoaded', (event) => {
 // CONSTS, SCRIPTS STARTUPS
 //const originalTitle = document.querySelector('title').innerHTML;
 const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
@@ -12,8 +14,7 @@ const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
     //'/yet/another/path.html'
 //];
 
-// Prevents the user from right clicking
-document.addEventListener('DOMContentLoaded', (event) => {
+// Prevents the user from right clicking    
     // Red banner that appears when right click
     const banner = document.createElement('div');
     banner.style.position = 'fixed';
@@ -33,7 +34,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
    document.addEventListener('contextmenu', event => {
         event.preventDefault();
         //document.title = "No right click";
-        audio.play();
+        bannerAudio.play();
         banner.style.top = '0';
         setTimeout(() => {
             //document.title = originalTitle;
