@@ -1,20 +1,8 @@
-// this might be deprecated idk find out yourself atp
-function easteregg() {
-    window.location.href = './app/storage/ressources/todolist';
-}
-
-
 document.addEventListener('DOMContentLoaded', (event) => {
-// CONSTS, SCRIPTS STARTUPS
-//const originalTitle = document.querySelector('title').innerHTML;
-const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
-//const blockedPaths = [
-    //'/app/storage/ressources/todolist.txt',
-    //'/another/path/to/block.html',
-    //'/yet/another/path.html'
-//];
+    // CONSTS, SCRIPTS STARTUPS
+    const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
 
-// Prevents the user from right clicking    
+    // Prevents the user from right clicking    
     // Red banner that appears when right click
     const banner = document.createElement('div');
     banner.style.position = 'fixed';
@@ -27,31 +15,41 @@ const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
     banner.style.padding = '10px';
     banner.style.fontFamily = 'cursive';
     banner.style.transition = 'top 3s';
-    banner.innerHTML = "❌ i'm just letting you know that right click isnt a thing at " + window.location.href +" 🤗"; ;
+    banner.innerHTML = "❌ i'm just letting you know that right click isnt a thing at " + window.location.href + " 🤗";
     document.body.appendChild(banner);
 
-// j'ai des voisins enzo
-   document.addEventListener('contextmenu', event => {
+    document.addEventListener('contextmenu', event => {
         event.preventDefault();
-        //document.title = "No right click";
         bannerAudio.play();
         banner.style.top = '0';
         setTimeout(() => {
-            //document.title = originalTitle;
-            bannerAudio.play();
-            banner.style.top = '-50px'; 
-        }, 3700); 
+            banner.style.top = '-50px';
+        }, 3700);
     });
+
+    const titles = [
+        "théo",
+        "mobile view is broken",
+        "title (no inspiration)",
+        "uhhh enjoy ig",
+        "hawk 2ah",
+        "why are u watching",
+        "nah for real",
+        "uhhh okay",
+        "can you not like watch me",
+        "please vro",
+        "can you not :rage:",
+        "PLEASEEE",
+        "bet.",
+        "*nukes*",
+    ];
+
+    let titleIndex = 0;
+
+    function alternateTitle() {
+        document.title = titles[titleIndex];
+        titleIndex = (titleIndex + 1) % titles.length;
+    }
+
+    setInterval(alternateTitle, 3000);
 });
-
-// Other way of preventing right click (deprecated)
-//function blockRightClick() {
-    //document.addEventListener('contextmenu', event => {
-        //event.preventDefault();
-    //});
-//}
-
-//if (blockedPaths.some(path => window.location.pathname.endsWith(path))) {
-    //banner.style.top = '-50000px';
-    //blockRightClick();
-//}
