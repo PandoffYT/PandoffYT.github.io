@@ -13,7 +13,7 @@ ul{
     text-decoration: underline;
     float: right;
     margin-left: 1%;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-right: 3%;
 }
 
@@ -24,14 +24,14 @@ ul:hover{
     text-decoration: underline;
     float: right;
     margin-left: 1%;
-    margin-top: 4%;
+    margin-top: 2%;
     margin-right: 3%;
 }
 
 #ul-link{
     transition: 0.2s;
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #ul-link:hover{
@@ -42,7 +42,7 @@ ul:hover{
 #Category1-drawing{
     transition: 0.2s;
     float: left;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
     border-radius: 25%;
@@ -54,7 +54,7 @@ ul:hover{
     transform: scale(120%);
     transition: 0.2s;
     float: left;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-right: 2%;
     margin-left: 2%;
     border-radius: 40%;
@@ -66,7 +66,7 @@ ul:hover{
     cursor: url(./cursors/hack.png), pointer; 
     float: left;
     margin-left: 3%;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 
