@@ -30,7 +30,7 @@ const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
     banner.innerHTML = "❌ i'm just letting you know that right click isnt a thing at " + window.location.href +" 🤗"; ;
     document.body.appendChild(banner);
 
-
+// j'ai des voisins enzo
    document.addEventListener('contextmenu', event => {
         event.preventDefault();
         //document.title = "No right click";
