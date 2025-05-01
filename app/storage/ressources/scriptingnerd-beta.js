@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // CONSTS, SCRIPTS STARTUPS
     const bannerAudio = new Audio('/app/storage/ressources/sounds/stoneslide.mp3');
 
-    // Prevents the user from right clicking    
-    // Red banner that appears when right click
     const banner = document.createElement('div');
     banner.style.position = 'fixed';
     banner.style.top = '-50px';

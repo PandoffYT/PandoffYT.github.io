@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
             if (Array.isArray(versions)) {
                 versions.forEach(version => {
                     const option = document.createElement('option');
-                    option.value = version.link; // Corrected to use version.link
-                    option.textContent = version.version; // Corrected to use version.version
+                    option.value = version.link;
+                    option.textContent = version.version;
                     selectElement.appendChild(option);
                 });
             } else {
