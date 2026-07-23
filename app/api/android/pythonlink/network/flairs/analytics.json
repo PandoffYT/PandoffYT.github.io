@@ -1,0 +1,10 @@
+{
+    "verboose":false,
+    "client":"Android",
+    "defaultbase":"",
+
+    "logs":
+    [
+        "USER", "INFO", "LOG", "DEBUG", "WARN", "ERROR", "EARLYEND", "ONCRASH"
+    ]
+}

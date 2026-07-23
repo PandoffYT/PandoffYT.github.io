@@ -1,0 +1,10 @@
+{
+    "version": 0,
+    "buildnumber": 2,
+    "vername": "PYTHONLINK_0BUILD2",
+    "author": "Pando",
+    "project": "PythonLink",
+    "projectphase": "Dev",
+    "endpoint":"network/endpoint.json",
+    "MustMatchFetch":true
+}

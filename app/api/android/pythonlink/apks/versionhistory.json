@@ -1,0 +1,16 @@
+{
+    "stable":
+    [
+        {"version": "0", "incremental":0, "link": "https://pandoffyt.github.io/app/api/android/pythonlink/apks/stable/stable.apk"}
+    ],
+
+    "beta": 
+    [
+        {"version": "0", "incremental":0, "link": "https://pandoffyt.github.io/app/api/android/pythonlink/apks/beta/beta.apk"}
+    ],
+
+    "debug": 
+    [
+        {"version": "0", "incremental":0, "link": "https://pandoffyt.github.io/app/api/android/pythonlink/apks/debug/debug.apk"}
+    ]
+}
