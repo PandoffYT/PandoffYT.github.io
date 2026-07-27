@@ -1,5 +1,5 @@
 {
-    "verboose":false,
+    "verbose":false,
     "client":"Android",
     "defaultbase":"",
 
