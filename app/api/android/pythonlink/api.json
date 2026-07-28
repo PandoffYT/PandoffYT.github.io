@@ -1,5 +1,5 @@
 {
-    "endpoint": "https://pandoffyt.github.io/app/api/android/pythonlink/network/lendpoint.json",
+    "endpoint": "https://pandoffyt.github.io/app/api/android/pythonlink/network/endpoint.json",
     "version": "https://pandoffyt.github.io/app/api/android/pythonlink/version.json",
     "update": "https://pandoffyt.github.io/app/api/android/pythonlink/network/update.json",
     "version-history": "https://pandoffyt.github.io/app/api/android/pythonlink/apk/version-history.json",
