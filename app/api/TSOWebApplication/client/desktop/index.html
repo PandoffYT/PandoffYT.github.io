@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSO Web Portal</title>
+    <link rel="icon" type="icon" href="../common/res/assets/emblems/ico/network.ico">
+    <link rel="stylesheet" href="../common/res/css/desktop.css">
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+</head>
+<body>
+    <!--<div id="background">
+        <img src=".../common/res/media/Banner.png" class="stretch" alt="" />-->
+        <div class="box">
+            <element class="tx-title">TSO Web Application Portal</element>
+            <hr>
+            <noscript>
+                <img class="js-err-img" src="../common/res/assets/nav/critical.png" alt="Error" draggable="false">
+                <link rel="icon" type="icon" href="../common/res/assets/nav/critical.png">
+                <div class="js-absent">
+                    <element class="js-err-tx">JavaScript is <und>not</und> enabled!</element>
+                    <element class="js-err-tx">This will not work until you enable it</element>
+                    <a class="js-error-refresh" href="./" target="_self">Refresh the page</a>
+                </div>
+            </noscript>
+                <form class="form">
+                    <div class="form-tx-field">
+                        <element class="form-tx-field-child-text">IP: </element>
+                        <input type="text" class="tx-field" id="in.address" placeholder="10.0.1.50" required title="Enter the TSO Web Server IP address">
+                    </div>
+                    <div class="form-tx-field">
+                        <element class="form-tx-field-child-text">Port: </element>
+                        <input type="text" class="tx-field" id="in.port" placeholder="7800"  required title="Enter the TSO Web Server port">
+                    </div>
+                    <div class="fetch-feedback">
+                        <img id="errorImg" class="hide button-image" width="60" height="60" src="../common/res/assets/nav/critical.png" alt="Error">
+                        <img id="successImg" class="hide button-image" width="60" height="60" src="../common/res/assets/nav/success.png" alt="Success">
+                        <h1 id="feedback"></h1>
+                        <h3 id="feedback-tx-child-redirecthelp" class="hide">If the redirection doesn't work, click <a class="a-link" draggable="false" id="feedback-redirect-link" href="_BLANK" target="_self">here</a>.</h3>
+                    </div>
+                    <button id="fetchButton">
+                        <span id="btnText" class="sp-tx">Connect to TSO Web Application</span>
+                        <img id="loadingImg" class="hide button-image" width="230" height="10" src="../common/res/assets/loading.gif" alt="Loading">
+                    </button>
+                </form>
+        </div>
+    </div>
+
+    <script src="../common/res/js/desktop.js"></script>
+</body>
+</html>
