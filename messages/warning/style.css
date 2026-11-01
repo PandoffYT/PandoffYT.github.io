@@ -131,7 +131,7 @@ blue{
 .cmd:hover{
     cursor: default;
     transition: 0.5s;
-    opacity: 0;
+    opacity: 1;
 }
 
 .noscript-banner {

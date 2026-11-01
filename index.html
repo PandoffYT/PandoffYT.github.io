@@ -10,17 +10,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
     const MessageURL = '/messages/warning/';
+    const URLTag = "hasSeenWarning"
 
     function CheckArgumentAndRedirect(){
         var url_string = window.location.href;
         var url = new URL(url_string);
-        var paramValue = url.searchParams.get("hasSeenWarning");
+        var paramValue = url.searchParams.get(URLTag);
         function VerifyParameter(){
             if (paramValue !== "true") {
-                console.log(`value for parameter hasReadMaintainMessage is ${paramValue} (!=="true"): redirecting to ${MessageURL}`)
+                console.log(`value for parameter ${URLTAG} is ${paramValue} (!=="true"): redirecting to ${MessageURL}`)
                 window.location.href = MessageURL;
+            }else{
+                console.log(`value for parameter ${URLTAG} is ${paramValue} (expecting true): no need to redirect`)
             }
-            console.log(`value for parameter hasReadMaintainMessage is ${paramValue} (expecting true): no need to redirect`)
         }
         VerifyParameter()
 }
