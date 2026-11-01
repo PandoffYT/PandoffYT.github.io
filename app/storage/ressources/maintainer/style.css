@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #282b30;
+    background-color: #212327;
     font-family: OCR A Std, monospace;
     color: white;
 }
@@ -33,6 +33,33 @@ body{
 .element-smalltext{
     font-size: 11px;
 }
+
+.text-ai{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.text-meme{
+    white-space: pre-line;
+}
+
+.content-arrow-back{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+und{
+    text-decoration: underline;
+}
+
+tai{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
 
 .noscript-banner{
     position: sticky;

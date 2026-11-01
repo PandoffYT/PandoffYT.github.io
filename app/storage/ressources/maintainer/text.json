@@ -20,5 +20,21 @@
     "Launch Chrome against localhost (PandoffYT.github.io)",
     "paw patrol",
     "- pandojogo 2026.",
-    "*funny text*"
+    "*funny text*",
+    "thanks for reading",
+    "hack_proxy.sh",
+    "[✅] Connecting to remote shell",
+    "[✅] Attempted reverse shell method and succeeded",
+    "[❌] User is not administrator on the node network (ignore)",
+    "[✅] Access hard drive #1 with user:root and password:admin (default)",
+    "[✅] Successfully extracted HD #1 content: /home/hacker/Documents/DDoS_Server/HD1_Data.txt",
+    "[✅] Altering remote configuration to accept TCP/UDP inbound connections on port 5200 -> run_as_root",
+    "[❌] Attempted to log into root and failed: 'Invalid two factor'",
+    "[✅] Bypassed two factor auth using middleman",
+    "[✅] Sending exploit payload on port 5200 -> GET, 200",
+    "[Pending, async] Starting process injection daemon -> /hack",
+    "[✅] {Payload}: Success: Enabled tunneling through remote RDP",
+    "[❌] Error enabling FTP port: already running",
+    "[✅] Exploit successful!",
+    "[INFO] Host now available at http://45.62.122.30:5200/exploit/hack/ssh"
 ]

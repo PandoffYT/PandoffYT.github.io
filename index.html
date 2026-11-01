@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./app/storage/ressources/config.css">
     <link rel="stylesheet" href="./app/storage/ressources/pup.css">
     <link rel="icon" href="./app/storage/ressources/icon">
-    <script src="./app/storage/ressources/scriptingnerd.js"></script>
+    <script src="app/storage/ressources/scriptingnerd.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <title>théo</title>
@@ -18,7 +18,7 @@
 
             <img src="./app/storage/ressources/pfp" id="Category1-drawing" draggable="false" width="120" height="120">
 
-            <h1 id="Category1-title" onclick="document.getElementById('puptodo').style.display = 'block';">théo</h1>
+            <h1 id="Category1-title" onclick="document.getElementById('puptodo').style.transition = 'display 3s'; document.getElementById('puptodo').style.display = 'block';">théo</h1>
     </div>
 <nav>
     <a id="ul-link" onclick="document.getElementById('projects-popup').style.display = 'block';" draggable="false"><ul>projects</ul></a>
@@ -33,7 +33,7 @@
     <span class="close" onclick="document.getElementById('puptodo').style.display = 'none';">&nbsp;&times;</span>
     <h1 id="pup-text">congrats, you <element id="hacked-lime">hacked</element> teh system !!</h1>
     <h3 id="pup-text">now you have access to the todo list 😱</h3>
-    <embed height="375" width="700" src="./app/storage/ressources/maintainer/maintain.html">
+    <embed height="375" width="700" src="./app/storage/ressources/404/">
 </div>
 
 
@@ -59,5 +59,25 @@
     </div>
 </div> 
 -->
+
+<script>
+const MessageURL = '/app/storage/ressources/maintainer.html';
+
+function CheckArgumentAndRedirect(){
+        var url_string = window.location.href;
+        var url = new URL(url_string);
+        var paramValue = url.searchParams.get("hasReadMaintainMessage");
+        function VerifyParameter(){
+            if (paramValue == "true") {
+                window.location = MessageURL;
+            }
+        }
+        VerifyParameter()
+}
+
+CheckArgumentAndRedirect()
+</script>
+
+
 </body>
 </html>
