@@ -18,10 +18,10 @@
         var paramValue = url.searchParams.get(URLTag);
         function VerifyParameter(){
             if (paramValue !== "true") {
-                console.log(`value for parameter ${URLTAG} is ${paramValue} (!=="true"): redirecting to ${MessageURL}`)
+                console.log(`value for parameter ${URLTag} is ${paramValue} (!=="true"): redirecting to ${MessageURL}`)
                 window.location.href = MessageURL;
             }else{
-                console.log(`value for parameter ${URLTAG} is ${paramValue} (expecting true): no need to redirect`)
+                console.log(`value for parameter ${URLTag} is ${paramValue} (expecting true): no need to redirect`)
             }
         }
         VerifyParameter()
