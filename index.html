@@ -17,7 +17,7 @@
         var paramValue = url.searchParams.get("hasReadMaintainMessage");
         function VerifyParameter(){
             if (paramValue !== "true") {
-                window.location = MessageURL;
+                window.location.href = MessageURL;
             }
         }
         VerifyParameter()
