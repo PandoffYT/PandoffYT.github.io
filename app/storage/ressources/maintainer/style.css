@@ -1,0 +1,47 @@
+html{
+   cursor: url(../cursors/cur-pointer.png), pointer; 
+}
+
+body{
+    background-color: #282b30;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+
+.div-content{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    font-size: 11px;
+}
+
+.text-title{
+    font-size: 3em; 
+    margin: .67em 0;
+    font-weight: bolder;
+}
+
+.text-content{
+    font-size: 2em; 
+    margin: .75em 0;
+    font-weight: bold 1.2;
+    white-space: pre-line;
+}
+
+.element-smalltext{
+    font-size: 11px;
+}
+
+.noscript-banner{
+    position: sticky;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+    background-color: rgba(255, 0, 0, 0.418);
+    color: white;
+    text-align: center;
+}
+
+
